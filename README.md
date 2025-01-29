@@ -2,7 +2,10 @@
 
 **Relay** is a real-time chat server supporting multiple channels, user management, and structured command processing. Built using **TreeMap**, **TreeSet**, and **LinkedList**, Relay ensures efficient data storage and retrieval for seamless communication.
 
+---
+
 ## Features
+
 - **Multi-Channel Messaging** – Users can create, join, and leave chat channels.
 - **User Registration & Nicknames** – Automatic nickname assignment with `/nick` command support.
 - **Message Broadcasting** – Users can send messages to all members in a channel.
@@ -10,23 +13,22 @@
 - **Channel Ownership** – Channels have designated owners with administrative control.
 - **Encapsulation & Modular Design** – Server logic is separated into well-defined components.
 
+---
+
 ## Installation
+
 Clone the repository and navigate to the project directory:
 
-```sh
 git clone https://github.com/yourusername/relay-chat-server.git
 cd relay-chat-server
+
 Usage
 1. Compile the Code
-Use javac to compile all .java files:
-
 sh
 Copy
 Edit
 javac -d bin src/**/*.java
 2. Run the Server
-Launch the server:
-
 sh
 Copy
 Edit
@@ -38,6 +40,7 @@ sh
 Copy
 Edit
 telnet localhost 12345
+
 Supported Commands
 Command	Description
 /nick <name>	Change user nickname.
